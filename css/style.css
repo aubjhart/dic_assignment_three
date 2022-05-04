@@ -11,7 +11,13 @@ html {
 body {
   min-height: calc(100vh - 100px);
   font-family: 'DM Sans', sans-serif;
-  margin: 0;
+  margin: 0 auto;
+}
+
+p{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .nav{
@@ -21,6 +27,40 @@ body {
 
 .nav--wrapper{
   max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.nav--links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p a{
+  color: black;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.nav p a:before {
+    content:"• ";
+    color: white;
+}
+
+.nav p a:hover{
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.nav p a:hover::before{
+  content:"• ";
+  color: #1E90FF;
 }
 
 .hero{
@@ -29,7 +69,8 @@ body {
 }
 
 .hero--wrapper{
-
+  max-width: 1200px;
+  margin: auto;
 }
 
 .products{
@@ -38,7 +79,8 @@ body {
 }
 
 .products--wrapper{
-
+  max-width: 1200px;
+  margin: auto;
 }
 
 .team{
@@ -47,7 +89,8 @@ body {
 }
 
 .team--wrapper{
-
+  max-width: 1200px;
+  margin: auto;
 }
 
 .careers{
@@ -56,7 +99,8 @@ body {
 }
 
 .careers--wrapper{
-
+  max-width: 1200px;
+  margin: auto;
 }
 
 .footer{
@@ -66,5 +110,6 @@ body {
 
 
 .footer--wrapper{
-
+  max-width: 1200px;
+  margin: auto;
 }
