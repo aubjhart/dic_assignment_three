@@ -15,9 +15,56 @@ body {
 }
 
 .nav{
+  width: 100%;
+  margin: 0 auto;
+}
 
+.nav--wrapper{
+  max-width: 1200px;
 }
 
 .hero{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero--wrapper{
+
+}
+
+.products{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.products--wrapper{
+
+}
+
+.team{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team--wrapper{
+
+}
+
+.careers{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.careers--wrapper{
+
+}
+
+.footer{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.footer--wrapper{
 
 }
