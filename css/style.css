@@ -11,7 +11,7 @@ html {
 body {
   min-height: calc(100vh - 100px);
   font-family: 'DM Sans', sans-serif;
-  margin: 0 auto;
+  margin: auto;
 }
 
 p{
@@ -20,9 +20,16 @@ p{
   font-size: 20px;
 }
 
+a{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .nav{
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .nav--wrapper{
@@ -31,34 +38,34 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
 }
 
 .nav--links{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 115px 115px 115px 245px;
+  justify-items: center;
+  justify-content: end;
+  align-items: center;
 }
 
-.nav p a{
+.nav a{
   color: black;
   text-decoration: none;
-  padding-left: 50px;
 }
 
-.nav p a:before {
+.nav a:before {
     content:"• ";
     color: white;
 }
 
-.nav p a:hover{
+.nav a:hover{
   color: black;
   text-decoration: none;
   font-weight: 700;
-  letter-spacing: -0.02em;
 }
 
-.nav p a:hover::before{
+.nav a:hover::before{
   content:"• ";
   color: #1E90FF;
 }
@@ -66,6 +73,7 @@ p{
 .hero{
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .hero--wrapper{
@@ -76,6 +84,7 @@ p{
 .products{
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .products--wrapper{
@@ -86,6 +95,7 @@ p{
 .team{
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .team--wrapper{
@@ -96,6 +106,7 @@ p{
 .careers{
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .careers--wrapper{
@@ -106,6 +117,7 @@ p{
 .footer{
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 
