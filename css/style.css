@@ -222,7 +222,7 @@ a{
   padding-bottom: 40px;
 }
 
-.team--wrapper img:hover{
+.team--wrapper img:hover::before{
 
 }
 
