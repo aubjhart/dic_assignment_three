@@ -216,10 +216,9 @@ a{
   padding: 50px;
   padding-top: 150px;
   padding-bottom: 150px;
-  position: relative;
 }
 
-.team--wrapper {
+.team--wrapper{
   max-width: 1200px;
   margin: auto;
   display: grid;
@@ -232,23 +231,6 @@ a{
 }
 
 .team--wrapper h2{
-  margin-top: -45px;
-}
-
-.team--wrapper__hover{
-  position: absolute;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px,1fr))
-}
-
-.team--wrapper__hover img{
-  padding: 20px;
-  padding-bottom: 40px;
-}
-
-.team--wrapper__hover h2{
   margin-top: -45px;
 }
 
