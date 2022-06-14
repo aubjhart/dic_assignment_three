@@ -345,29 +345,37 @@ a{
   background-color: #F8F9FA;
 }
 
+
 .careers--wrapper{
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  align-content: flex-start;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .careers--copy{
- width: 30%;
- padding-right: 50px;
+  width: 25%;
 }
 
 .careers--list{
-  width: 70%;
-  padding-left: 100px;
+  width: 65%;
   padding-top: 40px;
 }
 
 .careers--list button{
   margin-bottom: 30px;
+}
+
+@media (max-width: 875px) {
+  .careers--copy{
+    width: 100%;
+  }
+    .careers--list {
+        width: 100%;
+  }
 }
 
 .footer{
