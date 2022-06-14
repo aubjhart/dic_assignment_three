@@ -373,8 +373,9 @@ a{
   .careers--copy{
     width: 100%;
   }
-    .careers--list {
-        width: 100%;
+  .careers--list {
+    padding-top: 20px;
+    width: 100%;
   }
 }
 
