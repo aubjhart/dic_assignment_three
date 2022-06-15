@@ -349,12 +349,12 @@ a{
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px,1fr))
+    grid-template-columns: repeat(minmax(150px, 1fr))
   }
 
   .team--wrapper img{
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   .team--wrapper h2{
@@ -365,6 +365,9 @@ a{
   .team--photo{
     position: relative;
     z-index: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .team--infocircle__1 {
@@ -378,7 +381,7 @@ a{
     justify-content: center;
     text-align: center;
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: white;
     opacity: 0%;
     z-index: 50;
@@ -398,7 +401,7 @@ a{
     justify-content: center;
     text-align: center;
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: white;
     opacity: 0%;
     z-index: 50;
@@ -418,7 +421,7 @@ a{
     justify-content: center;
     text-align: center;
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: white;
     opacity: 0%;
     z-index: 50;
