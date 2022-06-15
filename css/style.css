@@ -336,6 +336,116 @@ a{
   transition: 0.3s;
 }
 
+@media (max-width: 875px) {
+  .team{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .team--wrapper{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px,1fr))
+  }
+
+  .team--wrapper img{
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+
+  .team--wrapper h2{
+    margin-top: -45px;
+    padding-bottom: 100px;
+  }
+
+  .team--photo{
+    position: relative;
+    z-index: auto;
+  }
+
+  .team--infocircle__1 {
+    background-color: #1E90FF;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    color: white;
+    opacity: 0%;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .team--infocircle__2 {
+    background-color: #218380;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    color: white;
+    opacity: 0%;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .team--infocircle__3 {
+    background-color: #FF6847;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    color: white;
+    opacity: 0%;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .team--infocircle__1:hover {
+    opacity: 85%;
+    z-index: 50;
+    transition: 0.3s;
+  }
+
+  .team--infocircle__2:hover {
+    opacity: 85%;
+    z-index: 50;
+    transition: 0.3s;
+  }
+
+  .team--infocircle__3:hover {
+    opacity: 85%;
+    z-index: 50;
+    transition: 0.3s;
+  }
+}
+
 .careers{
   width: 100%;
   margin: 0 auto;
