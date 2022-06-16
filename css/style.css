@@ -230,23 +230,6 @@ a{
 }
 
 @media (max-width: 875px) {
-  .products{
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #F8F9FA;
-  }
-
-  .products--wrapper{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
   .products--header h2{
     order: -1;
     margin-bottom: 100px;
