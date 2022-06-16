@@ -387,7 +387,7 @@ a{
     z-index: 50;
     position: absolute;
     top: 0;
-    left: 0;
+    left: auto;
   }
 
   .team--infocircle__2 {
@@ -407,7 +407,7 @@ a{
     z-index: 50;
     position: absolute;
     top: 0;
-    left: 0;
+    left: auto;
   }
 
   .team--infocircle__3 {
@@ -427,7 +427,7 @@ a{
     z-index: 50;
     position: absolute;
     top: 0;
-    left: 0;
+    left: auto;
   }
 
   .team--infocircle__1:hover {
