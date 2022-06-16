@@ -255,6 +255,7 @@ a{
   .products--feature__copy{
     width: 100%;
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   .products--standard__wrapper{
@@ -267,11 +268,13 @@ a{
     width: 100%;
     padding: 50px;
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   .products--standard:nth-child(1){
     padding: 50px;
     padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
