@@ -92,7 +92,7 @@ a{
 
 .nav--links{
   display: grid;
-  grid-template-columns: 115px 115px 245px;
+  grid-template-columns: 160px 115px 245px;
   justify-items: center;
   justify-content: end;
   align-items: center;
@@ -646,8 +646,7 @@ a{
 
 .footer--links{
   display: grid;
-  display: -webkit-flex;
-  grid-template-columns: 115px 115px;
+  grid-template-columns: 135px 115px;
   justify-items: center;
   justify-content: end;
   align-items: center;
@@ -694,8 +693,8 @@ a{
   }
 
   .footer--links{
-    display: grid;
-    grid-template-columns: 115px 115px;
+    display: inline-grid;
+    grid-template-columns: 135px 135px;
     justify-items: center;
     justify-content: end;
     align-items: center;
@@ -724,7 +723,7 @@ a{
 
   .footer--links{
     display: grid;
-    grid-template-columns: 115px 115px;
+    grid-template-columns: 135px 115px;
     justify-items: center;
     justify-content: center;
     align-items: center;
