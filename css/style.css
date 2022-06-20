@@ -628,8 +628,12 @@ a{
   max-width: 1200px;
   margin: auto;
   display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
 
 .footer--contact{
@@ -642,6 +646,7 @@ a{
 
 .footer--links{
   display: grid;
+  display: -webkit-flex;
   grid-template-columns: 115px 115px;
   justify-items: center;
   justify-content: end;
@@ -675,6 +680,7 @@ a{
     max-width: 1200px;
     margin: auto;
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
@@ -701,6 +707,7 @@ a{
     max-width: 1200px;
     margin: auto;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
