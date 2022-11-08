@@ -10,7 +10,7 @@ html {
 
 body {
   min-height: calc(100vh - 100px);
-  font-family: 'DM Sans', sans-serif;
+  font-family:  aktiv-grotesk, sans-serif;
   margin: auto;
 }
 
