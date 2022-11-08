@@ -115,6 +115,7 @@ a:hover{
   z-index: -1;
   animation: move 10s ease-in-out infinite;
   transform-origin: 50% 50%;
+  color: white;
 }
 
 @keyframes move {
