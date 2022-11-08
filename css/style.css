@@ -104,6 +104,10 @@ a:hover{
 }
 
 .annotation_1:hover{
+
+}
+
+.blob {
   position: absolute;
   top: 0;
   left: 0;
