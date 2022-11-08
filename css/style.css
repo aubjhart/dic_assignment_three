@@ -110,7 +110,7 @@ a:hover{
   position: absolute;
   top: 0;
   left: 0;
-  fill: #023F92;
+  fill: deeppink;
   width: 50vmax;
   z-index: -1;
   animation: move 10s ease-in-out infinite;
