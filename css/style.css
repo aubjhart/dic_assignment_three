@@ -149,7 +149,7 @@ a:hover{
   display: none;
 }
 
-.annotation--1:hover .annotation--1__blob {
+.annotation--1:hover + .annotation--1__blob {
   position: absolute;
   top: 0;
   left: 0;
