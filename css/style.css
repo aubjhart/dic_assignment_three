@@ -102,6 +102,10 @@ a:hover{
   margin-left: 35%;
 }
 
+.essay--list__role{
+  display: inline-block;
+}
+
 .annotation_1:hover{
 
 }
