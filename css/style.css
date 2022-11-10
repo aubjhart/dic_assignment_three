@@ -63,6 +63,13 @@ p{
   padding-bottom: 125px;
 }
 
+@media (max-width: 1000px) {
+  .essay{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .essay--wrapper{
   max-width: 1200px;
   margin: auto;
