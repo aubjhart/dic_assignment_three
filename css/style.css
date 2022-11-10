@@ -68,6 +68,28 @@ p{
     display: flex;
     flex-direction: column;
   }
+
+  .essay--wrapper{
+    max-width: 100%px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .essay--copy{
+    width: 100%;
+  }
+  
+  .essay--list{
+    width: 100%;
+  }
+  
+  .essay--list__role{
+
+  }
 }
 
 .essay--wrapper{
