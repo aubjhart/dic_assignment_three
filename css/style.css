@@ -104,9 +104,6 @@ p{
   .essay--wrapper{
     max-width: 100%;
     margin: auto;
-   /* display: flex;
-    flex-direction: column;
-    align-items: flex-start;*/
   }
   
   .essay--copy{
@@ -118,6 +115,7 @@ p{
   .essay--list{
     width: 100%;
     padding-right: 25px;
+    margin: 0;
   }
   
   .essay--list__role{
