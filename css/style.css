@@ -37,6 +37,12 @@ p{
   line-height: 1.25em;
 }
 
+sup{
+  color: deeppink;
+  font-family:  aktiv-grotesk, sans-serif;
+  font-weight: 700;
+}
+
 #top, #bottom, #left, #right {
 	background:deeppink;
 	position: fixed;
