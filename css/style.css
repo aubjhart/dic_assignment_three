@@ -90,6 +90,14 @@ p{
 
 @media (max-width: 1000px) {
  
+  .essay{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+  
   .essay--wrapper{
     max-width: 100%;
     margin: auto;
@@ -99,10 +107,16 @@ p{
   
   .essay--copy{
     width: 100%;
+    position:relative;
+    padding-right: 25px;
   }
   
   .essay--list{
     width: 100%;
+  }
+  
+  .essay--list__role{
+    display: inline-block;
   }
   
 }
