@@ -116,7 +116,7 @@ a:hover{
   left: 0;
   fill: deeppink;
   width: 50vmax;
-  z-index: 1;
+  z-index: 3;
   animation: move 20s ease-in-out infinite;
   transform-origin: 50% 50%;
   color: white;
