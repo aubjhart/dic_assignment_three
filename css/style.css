@@ -64,12 +64,9 @@ p{
 }
 
 @media (max-width: 1000px) {
-  .essay{
-
-  }
-
+ 
   .essay--wrapper{
-    max-width: 100%px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -85,9 +82,6 @@ p{
     width: 100%;
   }
   
-  .essay--list__role{
-
-  }
 }
 
 .essay--wrapper{
