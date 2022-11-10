@@ -106,8 +106,22 @@ a:hover{
   display: inline-block;
 }
 
-.annotation--1:hover{
+.annotation--1{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  line-height: 1.35em;
+  color: deeppink;
+}
 
+.annotation--1:hover{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+  line-height: 1.35em;
+  color: deeppink;
 }
 
 .annotation--1__blob {
