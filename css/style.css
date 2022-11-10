@@ -115,23 +115,15 @@ a:hover{
   top: 0;
   left: 0;
   fill: deeppink;
-  width: 25vmax;
-  z-index: -1;
+  width: 50vmax;
+  z-index: 1;
   animation: move 20s ease-in-out infinite;
   transform-origin: 50% 50%;
   color: white;
 }
 
 .annotation--1__blob:hover{
-  position: absolute;
-  top: 0;
-  left: 0;
-  fill: deeppink;
-  width: 50vmax;
-  z-index: -1;
-  animation: move 20s ease-in-out infinite;
-  transform-origin: 50% 50%;
-  color: white;
+
 }
 
 @keyframes move {
