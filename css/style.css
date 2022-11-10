@@ -65,18 +65,16 @@ p{
 
 @media (max-width: 1000px) {
   .essay{
-    display: flex;
-    flex-direction: column;
+
   }
 
   .essay--wrapper{
     max-width: 100%px;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
   
   .essay--copy{
