@@ -63,27 +63,6 @@ p{
   padding-bottom: 125px;
 }
 
-@media (max-width: 1000px) {
- 
-  .essay--wrapper{
-    max-width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  
-  .essay--copy{
-    width: 100%;
-  }
-  
-  .essay--list{
-    width: 100%;
-  }
-  
-}
-
 .essay--wrapper{
   max-width: 1200px;
   margin: auto;
@@ -108,3 +87,23 @@ p{
 .essay--list__role{
   display: inline-block;
 }
+
+@media (max-width: 1000px) {
+ 
+  .essay--wrapper{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .essay--copy{
+    width: 100%;
+  }
+  
+  .essay--list{
+    width: 100%;
+  }
+  
+}
+
