@@ -111,6 +111,10 @@ a:hover{
 }
 
 .annotation--1__blob {
+ opacity: 0%;
+}
+
+.annotation--1__blob:hover{
   position: absolute;
   top: 0;
   left: 0;
