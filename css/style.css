@@ -122,10 +122,6 @@ a:hover{
   color: white;
 }
 
-.annotation--1__blob:hover{
-
-}
-
 @keyframes move {
   0%   { transform: scale(1)   translate(10px, -30px); }
   38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
@@ -133,4 +129,12 @@ a:hover{
   78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
   80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
   100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+#b {
+  display: none;
+}
+
+.annotation--1:hover + div .annotation--1__blob {
+  display: block;
 }
