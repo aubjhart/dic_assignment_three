@@ -117,6 +117,8 @@ p{
   }
   
   .essay--list__role{
+    display: flex;
+    flex-direction: column;
   }
   
 }
