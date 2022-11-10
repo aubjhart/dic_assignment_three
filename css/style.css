@@ -111,7 +111,7 @@ a:hover{
 }
 
 .annotation--1__blob {
- opacity: 0%;
+ display: none;
 }
 
 .annotation--1__blob:hover{
