@@ -124,7 +124,7 @@ a:hover{
   color: deeppink;
 }
 
-.annotation--1__blob {
+/*.annotation--1__blob {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,7 +134,7 @@ a:hover{
   animation: move 20s ease-in-out infinite;
   transform-origin: 50% 50%;
   color: white;
-}
+}*/
 
 @keyframes move {
   0%   { transform: scale(1)   translate(10px, -30px); }
@@ -149,7 +149,7 @@ a:hover{
   display: none;
 }
 
-.annotation--1:hover + .annotation--1__blob {
+.annotation--1:hover .annotation--1__blob {
   position: absolute;
   top: 0;
   left: 0;
