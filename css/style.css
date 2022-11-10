@@ -114,8 +114,9 @@ p{
   
   .essay--list{
     width: 100%;
-    padding-right: 25px;
+    padding-right: 0px;
     margin-left: 0%;
+    padding-top: 50px;
   }
   
   .essay--list__role{
