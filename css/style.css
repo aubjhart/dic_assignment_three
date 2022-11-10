@@ -131,10 +131,18 @@ a:hover{
   100% { transform: scale(1)   translate(10px, -30px); }
 }
 
-#b {
+.annotation--1__blob {
   display: none;
 }
 
-.annotation--1:hover + div .annotation--1__blob {
-  display: block;
+.annotation--1:hover .annotation--1__blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: deeppink;
+  width: 50vmax;
+  z-index: 3;
+  animation: move 20s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  color: white;
 }
